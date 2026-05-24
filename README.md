@@ -17,7 +17,7 @@
 
 ---
 
-![ShomerCare Dashboard Preview](https://via.placeholder.com/800x400/faf7f2/b8963e?text=ShomerCare+Dashboard)
+<img src="assets/dashboard-preview.jpg" alt="ShomerCare Dashboard Preview" width="340">
 
 </div>
 
@@ -173,8 +173,10 @@ ShomerCare handles sensitive personnel and scheduling data. Multiple layers of p
 ## 📁 Repo Structure
 
 ```
-shomercare/
+shomercare-demo/
 ├── shomercare-demo.html   ← Public demo (generic team, no master key)
+├── assets/                ← Screenshots and media
+│   └── dashboard-preview.jpg
 ├── README.md
 └── LICENSE
 ```
