@@ -189,28 +189,36 @@ shomercare-demo/
 
 <table>
   <tr>
-    <td align="center"><b>Lock Screen</b></td>
+    <td align="center"><b>Splash Screen</b></td>
+    <td align="center"><b>PIN Lock</b></td>
     <td align="center"><b>Dashboard</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/splash-screen.jpg" width="220"></td>
+    <td><img src="assets/pin-lock.jpg" width="220"></td>
+    <td><img src="assets/dashboard-preview.jpg" width="220"></td>
+  </tr>
+  <tr>
     <td align="center"><b>Zone Assignment</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://via.placeholder.com/250x440/faf7f2/b8963e?text=Lock+Screen" width="250"></td>
-    <td><img src="https://via.placeholder.com/250x440/faf7f2/b8963e?text=Dashboard" width="250"></td>
-    <td><img src="https://via.placeholder.com/250x440/faf7f2/b8963e?text=Zone+Modal" width="250"></td>
-  </tr>
-  <tr>
     <td align="center"><b>Team Profiles</b></td>
     <td align="center"><b>Days Off</b></td>
-    <td align="center"><b>Sync / Settings</b></td>
   </tr>
   <tr>
-    <td><img src="https://via.placeholder.com/250x440/faf7f2/b8963e?text=Team+Profiles" width="250"></td>
-    <td><img src="https://via.placeholder.com/250x440/faf7f2/b8963e?text=Days+Off" width="250"></td>
-    <td><img src="https://via.placeholder.com/250x440/faf7f2/b8963e?text=Settings" width="250"></td>
+    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Replacement System</b></td>
+    <td align="center"><b>Sync / QR Code</b></td>
+    <td align="center"><b>Settings</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
   </tr>
 </table>
-
-> 📸 Replace placeholder images with real screenshots from the app.
 
 ---
 
