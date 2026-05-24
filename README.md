@@ -17,7 +17,7 @@
 
 ---
 
-<img src="assets/dashboard-preview.jpg" alt="ShomerCare Dashboard Preview" width="340">
+<img src="assets/dashboard-saved.jpg" alt="ShomerCare Dashboard Preview" width="340">
 
 </div>
 
@@ -191,27 +191,27 @@ shomercare-demo/
   <tr>
     <td align="center"><b>Splash Screen</b></td>
     <td align="center"><b>PIN Lock</b></td>
-    <td align="center"><b>Dashboard</b></td>
+    <td align="center"><b>Dashboard — Active</b></td>
   </tr>
   <tr>
     <td><img src="assets/splash-screen.jpg" width="220"></td>
     <td><img src="assets/pin-lock.jpg" width="220"></td>
-    <td><img src="assets/dashboard-preview.jpg" width="220"></td>
+    <td><img src="assets/dashboard-active.jpg" width="220"></td>
   </tr>
   <tr>
+    <td align="center"><b>Rest Day View</b></td>
+    <td align="center"><b>Coverage Alert & Share</b></td>
     <td align="center"><b>Zone Assignment</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/dashboard-rest-day.jpg" width="220"></td>
+    <td><img src="assets/share-coverage-alert.jpg" width="220"></td>
+    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+  </tr>
+  <tr>
     <td align="center"><b>Team Profiles</b></td>
     <td align="center"><b>Days Off</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
-    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
-    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Replacement System</b></td>
     <td align="center"><b>Sync / QR Code</b></td>
-    <td align="center"><b>Settings</b></td>
   </tr>
   <tr>
     <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
