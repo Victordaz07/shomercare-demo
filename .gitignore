@@ -1,0 +1,20 @@
+# Production version (private)
+shomercare.html
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.log
+
+# Node (if ever used for tooling)
+node_modules/
