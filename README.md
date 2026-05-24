@@ -175,8 +175,7 @@ ShomerCare handles sensitive personnel and scheduling data. Multiple layers of p
 ```
 shomercare-demo/
 ├── shomercare-demo.html   ← Public demo (generic team, no master key)
-├── assets/                ← Screenshots and media
-│   └── dashboard-preview.jpg
+├── assets/                ← Screenshots (18 captures)
 ├── README.md
 └── LICENSE
 ```
@@ -226,7 +225,7 @@ shomercare-demo/
   <tr>
     <td><img src="assets/share-full-week.jpg" width="220"></td>
     <td><img src="assets/user-guide.jpg" width="220"></td>
-    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="assets/team-profile-schedule.jpg" width="220"></td>
   </tr>
 </table>
 
