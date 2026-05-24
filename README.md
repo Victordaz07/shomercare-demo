@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/ShomerCare-v1.0-b8963e?style=for-the-badge&labelColor=4a3520" alt="ShomerCare v1.0">
+<img src="assets/app-icon.png" alt="ShomerCare" width="110">
 
 # ShomerCare
 ### Custodial Zone Management System
@@ -13,11 +13,11 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Built with](https://img.shields.io/badge/Built%20with-❤️%20%26%20Claude%20AI-7c6fff?style=flat-square)](https://claude.ai)
 
-[🚀 Live Demo](#) · [📖 User Guide](#user-guide) · [🔐 Security](#security) · [📬 Contact](#contact)
+[📖 User Guide](#-in-app-user-guide) · [🔐 Security](#-security) · [📬 Contact](#-contact)
 
 ---
 
-<img src="assets/dashboard-saved.jpg" alt="ShomerCare Dashboard Preview" width="340">
+<img src="assets/dashboard-zones.jpg" alt="ShomerCare Dashboard" width="340">
 
 </div>
 
@@ -40,65 +40,134 @@ ShomerCare was built specifically to solve all of this — in a single HTML file
 ## ✨ Features
 
 ### 🏛️ Zone Coverage Management
-- **5 critical zones** with visual coverage tracking per zone per window
-- **3 work windows per day** (Morning · Midday · Evening) — all times fully editable
-- Real-time coverage percentage with color-coded status badges
-- Visual alert when zones are uncovered
+
+Real-time tracking across **5 critical zones** and **3 work windows per day**. Coverage percentage updates instantly as you assign people. Each zone shows its own status badge and alerts when uncovered.
+
+<div align="center">
+<img src="assets/dashboard-stats.jpg" alt="Coverage Stats" width="270"> &nbsp; <img src="assets/zone-modal.jpg" alt="Zone Assignment Modal" width="270">
+</div>
+
+- **5 critical zones** with per-zone, per-window visual tracking
+- **3 work windows** (Morning · Midday · Evening) — all times fully editable
+- Real-time coverage % with color-coded status badges
+- Visual alert when any zone is uncovered
+
+---
 
 ### 👥 Smart Team Profiles
-- Full collaborator profiles with name, ID, WhatsApp, type (Full/Part)
-- **Per-day, per-window schedule grid** — set exactly when each person works
-- Zone primary assignments for smart replacement suggestions
-- Supervisor private notes per person
+
+Every collaborator gets a full profile with 4 tabs: **Info**, **Schedule**, **Zones**, and **Days Off**. The schedule grid lets you set exactly which day/window each person works. Zone assignments power the smart replacement engine.
+
+<div align="center">
+<img src="assets/team-info.jpg" alt="Team Profile Info" width="230"> &nbsp; <img src="assets/team-schedule.jpg" alt="Team Schedule Grid" width="230"> &nbsp; <img src="assets/team-zones.jpg" alt="Team Zone Assignments" width="230">
+</div>
+
+- Full profiles: name, ID, WhatsApp, type (Full/Part)
+- **Per-day, per-window schedule grid** — precise availability per person
+- Primary zone assignments for smart replacement suggestions
 - Color-coded team chips across the entire interface
+- Supervisor private notes per person
+
+---
 
 ### 📅 Days Off & Smart Replacements
+
+Add a day off for any collaborator with date and optional reason. The app instantly marks ⚠️ alerts in every slot that person was assigned and surfaces replacements in 3 tiers.
+
+<div align="center">
+<img src="assets/days-off-list.jpg" alt="Days Off List" width="230"> &nbsp; <img src="assets/add-day-off.jpg" alt="Add Day Off" width="230"> &nbsp; <img src="assets/person-picker.jpg" alt="Smart Person Picker" width="230">
+</div>
+
 - Add day-off dates with optional reason per collaborator
 - Automatic red alert ⚠️ where the absent person was assigned
 - **3-tier replacement system:**
   - 🟢 **Primary team** — zone teammates available this window
-  - 🟡 **Available** — anyone else available
+  - 🟡 **Available** — anyone else with open availability
   - 🔴 **Outside regular hours** — triggers 5-second override warning
 - Non-destructive: original assignment restored when person returns
 
+---
+
 ### 💾 Save, Share & Print
+
+Every change auto-saves. Share the day's full schedule via WhatsApp with one tap. If coverage is incomplete, an override flow lets you share anyway with a note to the team.
+
+<div align="center">
+<img src="assets/progress-saved.jpg" alt="Progress Saved Toast" width="270"> &nbsp; <img src="assets/coverage-alert.jpg" alt="Day Not Fully Covered" width="270">
+</div>
+
 - **Auto-save** on every change + manual save button
-- **Share Day** — WhatsApp message with full day schedule + optional note
+- **Share Day** — WhatsApp message with full schedule + optional note
 - **Share Week** — appears on Fridays when Mon–Fri are all complete
-- Day notes included in WhatsApp and printed output
 - Incomplete day sharing with override option and team note
+- Day notes included in WhatsApp and printed output
+
+---
 
 ### 🖨️ Print-Ready Weekly Schedule
-- Professional print layout — one table per day
-- Color-coded team legend
-- Day notes and day-off alerts (⚠️ red) included
-- Supervisor name and timestamp in footer
+
+Professional print layout — one table per day, color-coded team legend, day notes, day-off alerts (⚠️ red), and supervisor name + timestamp in the footer.
+
+---
 
 ### 🌍 Trilingual Interface
-- **English · Spanish · Tongan** — switch instantly from the header
-- All UI elements, messages, WhatsApp content, and print output translate
+
+Switch instantly between **English · Spanish · Tongan** from the header. All UI elements, messages, WhatsApp content, and print output translate completely.
+
+---
 
 ### 🔄 Cross-Device Sync
-- **QR Code** — generate on PC, scan on phone to load all data
+
+<div align="center">
+<img src="assets/sync-qr.jpg" alt="Sync and QR Code" width="320">
+</div>
+
+- **QR Code** — generate on PC, scan on phone to load all data instantly
 - **JSON Export/Import** — send file via WhatsApp/email, import on any device
 - 5-second countdown + explicit warning before any import (prevents accidental data loss)
 
+---
+
 ### ⚙️ Fully Configurable
+
+<div align="center">
+<img src="assets/settings.jpg" alt="Settings and Configuration" width="320">
+</div>
+
 - Temple/facility name, supervisor info, photo
 - Working days toggle (on/off per day)
 - **Editable work windows** — change start/end times per day per window on the fly
 - Reset to defaults option
 
+---
+
 ### 🔐 PIN Lock System
+
+<div align="center">
+<img src="assets/splash.jpg" alt="Splash Screen" width="255"> &nbsp; <img src="assets/pin-lock.jpg" alt="PIN Entry Screen" width="255">
+</div>
+
 - Secure 6-digit PIN required to access the app
 - First-launch PIN registration flow with confirmation
 - 3-attempt limit with auto-reset and developer contact info
 - Change PIN from a hidden menu (3-tap secret access)
 - Lock app button from within the Easter egg panel
 
+---
+
+### 📖 In-App User Guide
+
+<div align="center">
+<img src="assets/user-guide.jpg" alt="In-App User Guide" width="320">
+</div>
+
+Built-in accordion tutorial covering every feature — no external docs needed.
+
+---
+
 ### ⚛️ Easter Egg
-- Hidden React atom ⚛️ at the bottom of the dashboard
-- Tap to reveal developer info and app controls
+
+Hidden React atom ⚛️ at the bottom of the dashboard. Tap it to reveal developer info and app controls.
 
 ---
 
@@ -108,7 +177,7 @@ ShomerCare was built specifically to solve all of this — in a single HTML file
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Victordaz07/shomercare.git
+git clone https://github.com/Victordaz07/shomercare-demo.git
 
 # 2. Open the file in any modern browser
 open shomercare-demo.html
@@ -129,13 +198,13 @@ open shomercare-demo.html
 ## 🏗️ Architecture
 
 ```
-shomercare.html          ← entire application (single file)
+shomercare-demo.html     ← entire application (single file)
 │
 ├── CSS (~500 lines)     CSS variables, responsive layout, animations
 ├── HTML (~800 lines)    Views, modals, lock screen, nav
-└── JavaScript           
+└── JavaScript
     ├── Translations     EN / ES / TO dictionary
-    ├── Data Layer       localStorage with validation & sanitization  
+    ├── Data Layer       localStorage with validation & sanitization
     ├── PIN System       Registration, unlock, change PIN, master key
     ├── Dashboard        Zone rendering, coverage calculation, FAB
     ├── Team Profiles    Rich profiles with schedule grid
@@ -146,7 +215,7 @@ shomercare.html          ← entire application (single file)
     └── Guide            In-app tutorial (accordion)
 ```
 
-**No dependencies.** No npm. No build step. No framework.  
+**No dependencies.** No npm. No build step. No framework.
 One file. Open it. Done.
 
 ---
@@ -175,59 +244,12 @@ ShomerCare handles sensitive personnel and scheduling data. Multiple layers of p
 ```
 shomercare-demo/
 ├── shomercare-demo.html   ← Public demo (generic team, no master key)
-├── assets/                ← Screenshots (18 captures)
+├── assets/                ← App icon + 17 screenshots
 ├── README.md
 └── LICENSE
 ```
 
 > The production version (with real team data) is maintained in a private repository.
-
----
-
-## 🖥️ Screenshots
-
-<table>
-  <tr>
-    <td align="center"><b>Splash Screen</b></td>
-    <td align="center"><b>PIN Lock</b></td>
-    <td align="center"><b>Dashboard — Active</b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/splash-screen.jpg" width="220"></td>
-    <td><img src="assets/pin-lock.jpg" width="220"></td>
-    <td><img src="assets/dashboard-active.jpg" width="220"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Rest Day View</b></td>
-    <td align="center"><b>Zone Assignment</b></td>
-    <td align="center"><b>Smart People Picker</b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/dashboard-rest-day.jpg" width="220"></td>
-    <td><img src="assets/zone-assignment.jpg" width="220"></td>
-    <td><img src="assets/smart-picker.jpg" width="220"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Coverage Alert & Share</b></td>
-    <td align="center"><b>Days Off</b></td>
-    <td align="center"><b>Settings & Sync</b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/share-coverage-alert.jpg" width="220"></td>
-    <td><img src="assets/days-off.jpg" width="220"></td>
-    <td><img src="assets/settings-sync.jpg" width="220"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Share Full Week</b></td>
-    <td align="center"><b>User Guide</b></td>
-    <td align="center"><b>Team Profiles</b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/share-full-week.jpg" width="220"></td>
-    <td><img src="assets/user-guide.jpg" width="220"></td>
-    <td><img src="assets/team-profile-schedule.jpg" width="220"></td>
-  </tr>
-</table>
 
 ---
 
