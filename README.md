@@ -200,21 +200,21 @@ shomercare-demo/
   </tr>
   <tr>
     <td align="center"><b>Rest Day View</b></td>
-    <td align="center"><b>Coverage Alert & Share</b></td>
     <td align="center"><b>Zone Assignment</b></td>
+    <td align="center"><b>Smart People Picker</b></td>
   </tr>
   <tr>
     <td><img src="assets/dashboard-rest-day.jpg" width="220"></td>
-    <td><img src="assets/share-coverage-alert.jpg" width="220"></td>
-    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="assets/zone-assignment.jpg" width="220"></td>
+    <td><img src="assets/smart-picker.jpg" width="220"></td>
   </tr>
   <tr>
-    <td align="center"><b>Team Profiles</b></td>
+    <td align="center"><b>Coverage Alert & Share</b></td>
     <td align="center"><b>Days Off</b></td>
     <td align="center"><b>Sync / QR Code</b></td>
   </tr>
   <tr>
-    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="assets/share-coverage-alert.jpg" width="220"></td>
     <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
     <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
   </tr>
