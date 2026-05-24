@@ -211,11 +211,21 @@ shomercare-demo/
   <tr>
     <td align="center"><b>Coverage Alert & Share</b></td>
     <td align="center"><b>Days Off</b></td>
-    <td align="center"><b>Sync / QR Code</b></td>
+    <td align="center"><b>Settings & Sync</b></td>
   </tr>
   <tr>
     <td><img src="assets/share-coverage-alert.jpg" width="220"></td>
     <td><img src="assets/days-off.jpg" width="220"></td>
+    <td><img src="assets/settings-sync.jpg" width="220"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Share Full Week</b></td>
+    <td align="center"><b>User Guide</b></td>
+    <td align="center"><b>Team Profiles</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/share-full-week.jpg" width="220"></td>
+    <td><img src="assets/user-guide.jpg" width="220"></td>
     <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
   </tr>
 </table>
