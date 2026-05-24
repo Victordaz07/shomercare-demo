@@ -215,7 +215,7 @@ shomercare-demo/
   </tr>
   <tr>
     <td><img src="assets/share-coverage-alert.jpg" width="220"></td>
-    <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
+    <td><img src="assets/days-off.jpg" width="220"></td>
     <td><img src="https://via.placeholder.com/220x440/faf7f2/b8963e?text=Coming+Soon" width="220"></td>
   </tr>
 </table>
