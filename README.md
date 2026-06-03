@@ -343,8 +343,6 @@ Built by **Victor Ruiz** — custodian, developer, and BYU Pathway student.
 [![Instagram](https://img.shields.io/badge/Instagram-@alfonsorb07-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/alfonsorb07)
 [![Portfolio](https://img.shields.io/badge/Portfolio-portarts.dev-b8963e?style=flat-square&logo=safari&logoColor=white)](https://portarts.dev)
 
-Special thanks to **Joseph Patrick** for testing, feedback, and connecting the project to people who can use it.
-
 ---
 
 ## License
