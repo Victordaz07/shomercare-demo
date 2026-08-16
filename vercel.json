@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/shomercare-demo.html"
+      "destination": "/shomercare-demo"
     }
   ]
 }
